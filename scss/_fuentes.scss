@@ -1,0 +1,52 @@
+//Estilos tipográficos
+
+
+h1,h2,h3,h4,h5{
+	color: $terciary-color;
+}
+
+h1{
+	font-weight: 800;
+	font-size: 3rem;
+}
+
+h2{
+	font-weight: 700;
+	font-size: 4rem;
+	
+}
+
+h3 {
+	font-size: 2rem;
+	font-weight: 500;
+		
+}
+
+h4 {
+	font-size: 1.4rem;
+	
+
+}
+
+p{
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+//ENLACES Y LISTAS
+
+ul {
+	list-style: none;
+	li{
+		display: inline-block;
+		padding: 0.5rem;
+			&:hover{
+				color: $secondary-color;
+			}
+
+			a{
+				text-decoration: none;
+				
+			}
+	}
+}

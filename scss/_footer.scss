@@ -1,0 +1,13 @@
+.footer{
+	background-color: #FFFFFF;
+	padding: 1rem;
+	text-align: center;
+
+	.social{
+		a{
+			font-size: 2rem;
+			color: $terciary-color;
+			margin:0 8px;
+		}
+	}
+}
