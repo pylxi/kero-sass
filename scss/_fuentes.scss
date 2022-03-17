@@ -2,23 +2,27 @@
 
 
 h1,h2,h3,h4,h5{
-	color: $terciary-color;
+	color: map-get($color,terciary);
 }
 
+//FONT WEIGHT PASAR DE NUMERO A PALABRA PARA MEJOR LECTURA
+
+$font-weights: ("extralight":200, "light":300, "regular": 400, "semibold": 600, "bold": 700, "extrabold":800,"black":900);
+
 h1{
-	font-weight: 800;
+	font-weight: map-get($font-weights,"extrabold");
 	font-size: 3rem;
 }
 
 h2{
-	font-weight: 700;
+	font-weight: map-get($font-weights,"bold");
 	font-size: 4rem;
 	
 }
 
 h3 {
 	font-size: 2rem;
-	font-weight: 500;
+	font-weight: map-get($font-weights,"semibold");
 		
 }
 
@@ -30,7 +34,15 @@ h4 {
 
 p{
 	font-size: 1.2rem;
+	font-weight: map-get($font-weights,"regular");
 	line-height: 1.5;
+}
+
+//ESTILO SECCIONES DE CONTENIDO
+
+@mixin title{
+	font-size: 1.4rem;
+	font-weight: map-get($font-weights,"bold");
 }
 
 //ENLACES Y LISTAS
@@ -41,7 +53,7 @@ ul {
 		display: inline-block;
 		padding: 0.5rem;
 			&:hover{
-				color: $secondary-color;
+				color: map-get($color,secondary);
 			}
 
 			a{

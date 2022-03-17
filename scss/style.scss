@@ -10,14 +10,28 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 //MI SCSS
+
+//VARIABLES
 @import "colores";
 @import"fuentes";
-@import"responsive";
-@import"grids";
-@import "body";
+
+//COMPONENTES
+@import "images";
 @import "navbar";
+@import "cta";
 @import "slider";
 @import "footer";
+
+
+//BASE Y LAYOUT
+@import"grids";
+@import "body";
+@import "menu";
+
+//FUNCIONALIDADES
+@import"responsive";
+
+
 
 
 

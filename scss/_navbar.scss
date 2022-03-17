@@ -28,13 +28,13 @@ $nav_link_color:#FFFFFF;
 		li{
 			padding: 1rem;
 				&:hover{
-					background-color:$secondary-color;
+					background-color:map-get($color,secondary);
 
 				}
 
 			
 			a{
-				font-weight: 700;
+				font-weight: map-get($font-weights,"bold");
 				color:$nav_link_color ;
 				text-transform: uppercase;
 
