@@ -7964,6 +7964,11 @@ ul {
   max-height: 100%;
   width: auto; }
 
+@media only screen and (max-width: 768px) {
+  .img-slider {
+    width: 500px;
+    height: auto; } }
+
 .footer {
   background-color: #FFFFFF;
   padding: 1rem;
