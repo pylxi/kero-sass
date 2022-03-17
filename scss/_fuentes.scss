@@ -40,10 +40,18 @@ p{
 
 //ESTILO SECCIONES DE CONTENIDO
 
-@mixin title{
-	font-size: 1.4rem;
-	font-weight: map-get($font-weights,"bold");
+@mixin page-title{
+	font-size: 4rem;
+	font-weight: map-get($font-weights,"black");
+
 }
+
+@mixin section-title{
+	font-size: 1.4rem;
+	font-weight: map-get($font-weights,"semibold");
+}
+
+
 
 //ENLACES Y LISTAS
 

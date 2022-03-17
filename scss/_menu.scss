@@ -6,6 +6,12 @@
 	
 }
 
+.menu-title{
+	@include page-title;
+	padding-bottom:1rem;
+	color: map-get($color,secondary);
+}
+
 .menu-group-heading{
 	font-size: 2rem;
 	margin: 0;
@@ -31,8 +37,12 @@
 }
 
 .menu-item-name{
-	@include title;
+	@include section-title;
 	 color: map-get($color,terciary);
+}
+
+.menu-item-text{
+	padding-left: 1rem;
 }
 
 @media only screen and (min-width: 768px) {

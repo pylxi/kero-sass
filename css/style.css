@@ -7967,6 +7967,7 @@ ul {
 .footer {
   background-color: #FFFFFF;
   padding: 1rem;
+  padding-top: 2rem;
   text-align: center;
   margin: 0; }
   .footer .social a {
@@ -7996,6 +7997,12 @@ header {
   padding-top: 1em;
   padding-left: 1em; }
 
+.menu-title {
+  font-size: 4rem;
+  font-weight: 900;
+  padding-bottom: 1rem;
+  color: #ffb7c5; }
+
 .menu-group-heading {
   font-size: 2rem;
   margin: 0;
@@ -8018,8 +8025,11 @@ header {
 
 .menu-item-name {
   font-size: 1.4rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #514F16; }
+
+.menu-item-text {
+  padding-left: 1rem; }
 
 @media only screen and (min-width: 768px) {
   .menu-group {
